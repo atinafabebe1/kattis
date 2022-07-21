@@ -2,14 +2,12 @@
 using namespace std;
 int main()
 {
-    string word;
-    cin>>word;
-    int i;
-    for(i=0;i<word.size();i++)
+    int a,b,c,x,y,z,sum=0;
+    cin>>a;
+    while(a--)
     {
-        if(word[i]=='a')
-        {
-            cout<<word[i];
-        }
+        cin>>b;
+        sum=sum+b;
     }
+    cout<<sum-a-1;
 }
