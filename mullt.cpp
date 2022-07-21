@@ -10,12 +10,15 @@ int main()
         cin >> arr[i];
     }
     d = 0;
-    for (int i = 1; i < a; i++)
+    for(int i=1;i<a;i++)
     {
-        if (arr[i] % arr[d] == 0)
+     
+        if(arr[i]%arr[d]==0)
         {
-            cout << arr[i] << endl;
-            d = i+1;
+            cout<<arr[i]<<endl;
+            d=i+1;
+            i=i+1;
+            continue;
         }
     }
 }
